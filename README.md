@@ -13,6 +13,7 @@ option = ['rock', 'paper', 'scissors']
 # now play a while loop
 
 while True:
+
     user_input = input('Type rock/paper/scissors or q to quit:')
     if user_input == 'q':
         break
