@@ -1,10 +1,14 @@
 # Simple-rock-paper-game-using-python
+
+#import module
 import random
 
+#define initial value
 user_win = 0
 computer_win = 0
 option = ['rock', 'paper', 'scissors']
 
+# now play a while loop
 while True:
     user_input = input('Type rock/paper/scissors or q to quit:')
     if user_input == 'q':
@@ -31,6 +35,7 @@ while True:
     else:
         print('you lost!')
         computer_win += 1
+#print output
 print('you won', user_win, 'times.')
 print('computer won', user_win, 'times.')
 print('bye')
